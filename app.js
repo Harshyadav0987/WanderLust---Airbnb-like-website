@@ -84,7 +84,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Everything is working fine");
+  res.redirect("/listings");
 });
 
 app.get(
