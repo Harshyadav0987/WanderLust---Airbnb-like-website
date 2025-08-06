@@ -66,6 +66,7 @@ const sampleListings = [
     image: {
       filename: "listingimage",
       url: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      
     },
     price: 2000,
     location: "Cancun",
@@ -335,7 +336,7 @@ const sampleListings = [
     location: "Aspen",
     country: "United States",
   },
-  {
+ , {
     title: "Secluded Beach House in Costa Rica",
     description:
       "Escape to a secluded beach house on the Pacific coast of Costa Rica. Surf, relax, and unwind.",
@@ -346,7 +347,7 @@ const sampleListings = [
     price: 1800,
     location: "Costa Rica",
     country: "Costa Rica",
-  },
+  }
 ];
 
 module.exports = { data: sampleListings };
