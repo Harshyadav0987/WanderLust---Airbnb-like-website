@@ -83,9 +83,9 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.get("/", (req, res) => {
-//   res.send("Everything is working fine");
-// });
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
 
 app.get(
   "/demouser",
